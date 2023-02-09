@@ -107,12 +107,12 @@ export const TransactionTypeButton = styled(
   }
 
   &[data-state='checked'] {
-      box-shadow: 0 0 0 2px
-        ${(props) =>
-          props.variant === 'income'
-            ? props.theme['green-700']
-            : props.theme['red-700']};
-    }
+    box-shadow: 0 0 0 2px
+      ${(props) =>
+        props.variant === 'income'
+          ? props.theme['green-700']
+          : props.theme['red-700']};
+  }
 
   &[data-state='checked'] {
     color: ${(props) => props.theme.white};
@@ -121,15 +121,16 @@ export const TransactionTypeButton = styled(
         ? props.theme['green-500']
         : props.theme['red-500']};
 
-        &:focus {
-          color: ${(props) => props.theme.white};
-          background: ${(props) =>
-            props.variant === 'income'
-              ? props.theme['green-500']
-              : props.theme['red-500']};
-  }
+    &:focus {
+      color: ${(props) => props.theme.white};
+      background: ${(props) =>
+        props.variant === 'income'
+          ? props.theme['green-500']
+          : props.theme['red-500']};
+    }
 
-  svg {
-    color: ${(props) => props.theme.white};
+    svg {
+      color: ${(props) => props.theme.white};
+    }
   }
 `
