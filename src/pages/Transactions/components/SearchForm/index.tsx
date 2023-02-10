@@ -12,6 +12,7 @@ Por que que um componente renderiza?
 - Hooks changed (mudou estado, contexto, reducer);
 - Props changed (mudou propriedades);
 - Parent rerendered (componente pai renderizou;)
+..
 
 Qual o fluxo de renderização?
 1. O React reciar o HTML da interface daquele componente
