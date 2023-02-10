@@ -3,7 +3,7 @@ import { Header } from '../../components/Header'
 import { Summary } from '../../components/Summary'
 import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { dateFormatter, priceFormatter } from '../../utils/formatter'
-import { SeachForm } from './components/SearchForm'
+import { SearchForm } from './components/SearchForm'
 import {
   PriceHighlight,
   TransactionsContainer,
@@ -21,7 +21,7 @@ export function Transactions() {
       <Header />
       <Summary />
       <TransactionsContainer>
-        <SeachForm />
+        <SearchForm />
         <TransactionsTable>
           <tbody>
             {transactions.map((transaction) => {
