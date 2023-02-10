@@ -47,6 +47,30 @@
       "type": "outcome",
       "createdAt": "2022-07-30T13:38:57.560Z",
       "id": 6
+    },
+    {
+      "description": "SSD",
+      "price": 100,
+      "category": "Eletronico",
+      "type": "outcome",
+      "createdAt": "2023-02-10T16:35:50.162Z",
+      "id": 7
+    },
+    {
+      "description": "Lolzin",
+      "price": 1000,
+      "category": "Eletronico",
+      "type": "outcome",
+      "createdAt": "2023-02-10T16:42:55.601Z",
+      "id": 8
+    },
+    {
+      "description": "SSDDD",
+      "price": 16,
+      "category": "Eletronico",
+      "type": "outcome",
+      "createdAt": "2023-02-10T17:03:04.634Z",
+      "id": 9
     }
   ]
 }
